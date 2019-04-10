@@ -2,9 +2,8 @@ FROM rocker/tidyverse:3.5.3
 
 RUN apt-get update
 
-# Install R packages with packrat
-# (From R, run packrat::init() the first to set up packrat,
-# and install_packages.R any time packages should be updated)
+# Only run this after making packrat/packrat.lock by
+# running install_packages.R
 
 COPY ./packrat/packrat.lock packrat/
 
