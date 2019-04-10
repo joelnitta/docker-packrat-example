@@ -1,9 +1,9 @@
+# Only run this after making packrat/packrat.lock by
+# running install_packages.R
+
 FROM rocker/tidyverse:3.5.3
 
 RUN apt-get update
-
-# Only run this after making packrat/packrat.lock by
-# running install_packages.R
 
 COPY ./packrat/packrat.lock packrat/
 
