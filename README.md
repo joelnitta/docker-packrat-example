@@ -1,5 +1,7 @@
 ## Installing R packages to a Docker image with packrat
 
+This is a minimal example that installs a single package each from CRAN, bioconductor, and github to a Docker image using packrat.
+
 ### Setup
 
 Keep `Dockerfile` and `install_packages.R` in the root of the
