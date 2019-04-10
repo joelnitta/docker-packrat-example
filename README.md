@@ -1,4 +1,4 @@
-## Installing packages to a Docker image with packrat
+## Installing R packages to a Docker image with packrat
 
 ### Setup
 
@@ -8,7 +8,7 @@ project directory.
 ### First step: make packrat/packrat.lock file
 
 Launch `rocker/tidyverse` with tag set to same version we will use in
-the `Dockerfile` and this directory mounted, and run this script.
+the `Dockerfile`, and this directory mounted.
 
 Here I'm using `rocker/tidyverse` because it comes with RStudio server, so we can
 edit code in the container directly with RStudio. However, `rocker/tidyverse`
