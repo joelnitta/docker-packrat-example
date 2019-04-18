@@ -2,11 +2,10 @@
 
 ### Initialize packrat ###
 
-# rocker/tidyverse comes with packrat, so we don't need to install it.
-# Uncomment the next line if using an image that doesn't already have packrat.
-# install.packages("packrat", repos = "https://cran.rstudio.com/")
+# Install packrat
+install.packages("packrat", repos = "https://cran.rstudio.com/")
 
-# Don't let packrat try to find packages to install itself.
+# Initialize packrat, but don't let it try to find packages to install itself.
 packrat::init(
   infer.dependencies = FALSE,
   enter = TRUE,
