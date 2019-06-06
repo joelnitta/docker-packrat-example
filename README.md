@@ -3,6 +3,8 @@
 This is a minimal example that installs a single package each from CRAN,
 bioconductor, and github to a Docker image using packrat.
 
+For more info, [see my blogpost.](https://www.joelnitta.com/post/docker-and-packrat/)
+
 ### Setup
 
 Keep `Dockerfile` and `install_packages.R` in the root of the
