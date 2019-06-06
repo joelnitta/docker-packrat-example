@@ -8,7 +8,7 @@ For more info, [see my blogpost.](https://www.joelnitta.com/post/docker-and-pack
 ### Setup
 
 Keep `Dockerfile` and `install_packages.R` in the root of the
-project directory.
+project directory (you can clone this repo as an example project).
 
 ### First step: make packrat/packrat.lock file
 
